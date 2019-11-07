@@ -1,0 +1,10 @@
+package bitShifting;
+
+public class ZeroFilling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

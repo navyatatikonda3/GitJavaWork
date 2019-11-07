@@ -1,0 +1,21 @@
+package oop;
+
+public class Bird {
+	
+	//instance variables needed to store object data
+	int legs;
+	int wings;
+    String birdName;
+    String birdColor;
+    
+    //methods to describe the behavior of object
+    public void walk()
+    {
+    	System.out.println(birdColor+" " +birdName +" " +"is walking with" +legs+"legs");
+    }
+    public void fly()
+    {
+    	System.out.println(birdColor+" " +birdName +" " +"is flying with" +legs+"legs");
+    }
+
+}
