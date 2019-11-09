@@ -1,0 +1,12 @@
+package abstr;
+
+public class Triangle {
+  float base,height,area;
+  
+  
+  public void calcArea()
+  {
+	  
+  }
+ 
+}
