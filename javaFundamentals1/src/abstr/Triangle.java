@@ -15,7 +15,7 @@ public class Triangle extends Shape {
   public void calcArea()
   {
 	  area=0.5f*base*height;
-	  System.out.println("area of a triangle is " +area);
+	  System.out.println("area of a " +shapeName +"is "+area);
   }
  
 }

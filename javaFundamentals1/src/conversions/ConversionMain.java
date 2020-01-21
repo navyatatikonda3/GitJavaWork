@@ -15,6 +15,7 @@ public class ConversionMain {
 		
 		byte b1=20,b2=29;
 		//byte b3=b; //not ok
+		//byte b3=(int)b;
 		byte b5=b1+=1;
 		System.out.println(b5);
 		

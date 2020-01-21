@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>program1</title>
+</head>
+<body>
+	<SCRIPT LANGUGE="JavaScript">
+		function notEmpty() {
+			if (document.signup.tname.value == "")
+				alert("Please Enter a Value");
+		}
+	</script>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" href="Program1.css" />
+</head>
+<body>
+	<form name="signup">
+		<h1 id="h1id" align="center">
+			<b>Employee Details</b>
+		</h1>
+		<table align="center">
+			<tr>
+				<td style="color: blue;">Username:</td>
+				<td><input type="text" name="tname" pattern="[a-z]{5,}"
+					title="pls enter minimum 5"></td>
+			<tr>
+			<tr>
+				<td style="color: blue;">Password:</td>
+				<td><input type="text" name="password"
+					title="pls enter valid digits only"></td>
+			<tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" class="submitbutton" value="signin"
+					onclick="notEmpty()"></td>
+			</tr>
+		</table>
+		<table align="center">
+
+			<p align="center" style="color: green;">HCL Technologies</p>
+		</table>
+</body>
+</html>

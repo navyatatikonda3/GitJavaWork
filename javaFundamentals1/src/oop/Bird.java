@@ -9,6 +9,7 @@ public class Bird {
     public String birdColor;
     private boolean singStatus;
     
+    
     //constructor is a method used to initialize common values to the attributes or properties
     Bird()
     {

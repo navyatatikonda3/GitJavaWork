@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Incident Form</title>
+<link rel="stylesheet" type="text/css" href="Cust.css"/>
+</head>
+<body>
+<form action="Customer" method="post"><table>
+<h1 align="center"><b>Customer Incident Form</b></h1>
+<p align="center">We appreciate your business and want to hear about your experience during your visit.</p>
+
+<tr><td>Name</td><td><input type="text" name="Name"></td></tr>
+<tr><td>Address</td><td><input type="textarea" cols="10" rows="5" name="Address"></td></tr>
+<tr><td>State</td><td><select name="State">
+<option value="Karnataka-KA">Karnataka-KA</option>"
+<option value="Tamilnadu-TN">Tamilnad-TN</option>
+<option value="AndhraPradesh-AP">AndhraPradesh-AP</option>
+<option value="Kerala-K">Kerala-K</option>
+<option value="Telangana-T">Telang-T</option>
+</select></td></tr>
+<tr><td>Phonenumber</td><td><input type="text" name="Phonenumber"></td></tr>
+<tr><td>Email</td><td><input type="text" name="Email"></td></tr>
+<tr><td>Preferred way to contact you?</td><td>Email<input type="radio" name="preferredway">Phone
+<input type="radio" name="preferredway">postmail<input type="radio" name="preferredway"></td></tr>
+<tr><td>date of visit</td><td><input type="date" name="dov" value="dd-MM-yyyy"/></td></tr>
+<tr><td>please describe the incident</td><td><textarea cols="10" rows="10" name="incident"></textarea></td></tr>
+<tr><td><input type="reset" value="reset">
+<input type="submit" value="submit"></td></tr>
+</table>
+</form>
+</body>
+</html>
